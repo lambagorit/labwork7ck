@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Страничка актера</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body data-bs-spy = "scroll" data-bs-target=".navbar" data-bs-offset = "50">
+        <div>
+            <nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class = "container-fluid">
+                    <a class = "navbar-brand" href = "https://t.me/lambagorit">
+                        <img src = "meetup.png" alt="Logo"
+                        style = "width: 40px;">
+                    </a>
+                    <div class = "collapse navbar-collapse">
+                        <ul class = "navbar-nav">
+                            <li class = "nav-item">
+                                <a class = "nav-link" href = "films.html">Фильмография</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link" href = "#carusel">Карусель</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link" href = "#cards">Карточки</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a class = "nav-link" href = "#biography">Биография</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section id = "carusel" class = "">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="bob2.jpg" alt="bob1" class="d-block" style="width:100%">
+                        <div class = "carousel-caption text-center w-100"> 
+                            <h1 class="d-flex justify-content-center align-items-center" style="height: 300px;">Robert Downey Jr.</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bob1.jpg" alt="bob2" class="d-block" style="width:100%">
+                        <div class = "carousel-caption text-center w-100"> 
+                            <h1 class="d-flex justify-content-center align-items-center" style="height: 300px;">Robert Downey Jr.</h1>
+                        </div>
+                        <div class = "carousel-caption next-center">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bob3.jpg" alt="bob3" class="d-block" style="width:100%">
+                        <div class = "carousel-caption text-center w-100" > 
+                            <h1 class="d-flex justify-content-center align-items-center" style="height: 300px;">Robert Downey Jr.</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bob4.jpg" alt="bob4" class="d-block" style="width:100%">
+                        <div class = "carousel-caption text-center w-100"> 
+                            <h1 class="d-flex justify-content-center align-items-center" style="height: 300px;">Robert Downey Jr.</h1>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </section>
+            <section id = "cards" class = "">
+                <div class = "card-container">
+                    <div class = "card">
+                        <div class = "card-body">
+                            <h4 class = "card-title" style = "color: aliceblue;">Железный человек</h4>
+                            <img src = "poster1.jpg" alt = "poster1" style = "width: 365px" class = "poster">
+                            <p class = "card-text">
+                                Миллиардер-изобретатель Тони Старк попадает в плен к Афганским террористам, которые пытаются заставить его создать оружие массового поражения. В тайне от своих захватчиков Старк конструирует высокотехнологичную киберброню, которая помогает ему сбежать. Однако по возвращении в США он узнаёт, что в совете директоров его фирмы плетётся заговор, чреватый страшными последствиями. Используя своё последнее изобретение, Старк пытается решить проблемы своей компании радикально...
+                            </p>
+                            <a href = "https://www.kinopoisk.ru/film/61237/" class="btn btn-primary" style="background-color: #dd1b45; color: white; border: 0px;">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                    <div class = "card">
+                        <div class = "card-body">
+                            <h4 class = "card-title" style = "color: aliceblue;">Оппенгеймер</h4>
+                            <img src = "poster2.jpg" alt = "poster2" style = "width: 365px" class = "poster">
+                            <p class = "card-text">
+                                "Оппенгеймер" — это историческая драма, режиссированная Кристофером Ноланом, которая рассказывает о жизни Роберта Оппенгеймера, известного как «отец атомной бомбы». Фильм погружает зрителя в сложный мир научных открытий, моральных дилемм и политических интриг, стоявших за созданием первого ядерного оружия во время Второй мировой. Сюжет фильма не ограничивается только событиями войны, но также затрагивает последствия для Оппенгеймера и его команды после окончания проекта.
+                            </p>
+                            <a href = "https://www.kinopoisk.ru/film/4664634/" class="btn btn-primary" style="background-color: #dd1b45; color: white; border: 0px;">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                    <div class = "card">
+                        <div class = "card-body">
+                            <h4 class = "card-title" style = "color: aliceblue;">Мстители: Война бесконечности</h4>
+                            <img src = "poster3.jpg" alt = "poster3" style = "width: 365px" class = "poster">
+                            <p class = "card-text">
+                                Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из космоса: безумный титан Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по своему желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли никогда ещё не была столь неопределённой.
+                            </p>
+                            <a href = "https://www.kinopoisk.ru/film/843649/" class="btn btn-primary" style="background-color: #dd1b45; color: white; border: 0px;">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                    <div class = "card">
+                        <div class = "card-body">
+                            <h4 class = "card-title" style = "color: aliceblue;">Шерлок Холмс</h4>
+                            <img src = "poster4.jpg" alt = "poster4" style = "width: 365px" class = "poster">
+                            <p class = "card-text">
+                                Величайший в истории сыщик Шерлок Холмс вместе со своим верным соратником Ватсоном вступают в схватку, требующую нешуточной физической и умственной подготовки, ведь их враг представляет угрозу для всего Лондона.Особое внимание уделяется его отношениям с Ватсоном, который становится не только другом, но и партнером в расследованиях. Сюжет наполнен экшеном, захватывающими погонями и увлекательными головоломками, которые Холмс разгадывает с потрясающей логикой и остроумием.
+                            </p>
+                            <a href = "https://www.kinopoisk.ru/film/420923/" class="btn btn-primary" style="background-color: #dd1b45; color: white; border: 0px;">Смотреть на Кинопоиске</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id = "biography" class = "">
+                <div class = "info">
+                    <h2 class="text-center text-white">О Кристиане Бейле</h2>
+                    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#bio" style="background-color: #dd1b45; color: white; border: 0px;">Показать/скрыть</button>
+                    <div class="collapse" id = "bio">
+                        <p>
+                            <b>Ро́берт Джон Да́уни-мла́дший</b> (родился 4 апреля 1965 года, Манхэттен, Нью-Йорк США) — американский актёр, продюсер и музыкант. Обладатель премий «Оскар» (2024), «Золотой глобус» (2001, 2010, 2024) Гильдии киноактёров США (2001,2024), «Сатурн» (1994, 2009, 2014, 2019) и Выбор критиков (2024).
+                        </p>
+                        <p>
+                            <b>Ранние годы:</b> Роберт Джон Дауни младший родился в семье актера Роберта Дауни старшего и актрисы Элсинор Тори. Уже с детства он был окружен миром кино и искусства, что определило его будущую карьеру. В возрасте 5 лет он дебютировал в фильме своего отца <i>Pound (1970)</i>.
+                        </p>
+                        <p>
+                            <b>Кинокарьера:</b> Дауни младший начал свою карьеру в 1980-х годах, сыграв в нескольких фильмах и телесериалах. Одной из его первых заметных ролей была в фильме <i>Меня зовут Чарли (1985)</i>, после чего он продолжил сниматься в разнообразных проектах, включая комедийные и драматические роли. Его слава значительно возросла после выхода фильма <i>Аллилуйя (1987)</i> и других проектов 90-х.
+                            Однако настоящая известность пришла к нему в 2000-х годах благодаря роли Тони Старка в фильме <i>Железный человек (2008)</i>, который стал началом феномена киновселенной Marvel. Эта роль принесла ему мировую славу, а его исполнение было признано одним из лучших в жанре супергеройского кино.
+                        </p>
+                        <p>
+                            <b>Личная жизнь и проблемы:</b> К сожалению, карьера Роберта Дауни младшего была омрачена проблемами с наркотиками и алкоголем. В 1990-х годах он несколько раз попадал в тюрьму за употребление наркотиков, что затруднило его карьерный рост. Однако, после нескольких лет борьбы с зависимостью, он смог вернуться в киноиндустрию и возродить свою карьеру. Роберт был дважды женат. Его первой супругой была актриса Дебора Фальсон (1992-2004). В 2005 году он женился на продюсере Сьюзан Левин. У них есть двое детей.
+                        </p>
+                        <p>
+                            <b>Награды:</b> Дауни младший был номинирован на множество наград, включая премию «Оскар» за <i>Оппенгеймер (2023)</i>, а также выиграл несколько Золотых глобусов, премий MTV и других наград за свои роли в кино. Его роль в <i>Железном человеке</i> и последующих фильмах Marvel принесла ему не только признание зрителей, но и высокую оценку критиков.
+                        </p>
+                        <p>
+                            <b>Филантропия и личные убеждения:</b> Роберт активно участвует в благотворительности, поддерживая различные социальные и экологические инициативы. Он также известен своим позитивным взглядом на жизнь и личной трансформацией, став примером того, как можно преодолеть трудности и вернуться к успеху после поражений.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: verdana;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+.card-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.card{
+    border-radius: 10px;
+    padding: auto;
+    background-color: #212224;
+    width: 410px;
+}
+.card-body{
+    background-color: #212224;
+    border-radius: 8px;
+}
+.navbar{
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #212224;
+    margin-bottom: 20px;
+}
+.card-text {
+    color: rgb(221, 221, 221);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.poster{
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.card-title{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #271216
+}
+.info{
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.container{
+    font-size: 20px;
+}
+.card-text{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.mb-4{
+    margin-top: 10px;
+}
+.fact{
+    background-color: #212224;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.quest{
+    background-color: #212224;
+    padding: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
