@@ -16,10 +16,10 @@ body {
     background-color: #212224;
     width: 410px;
 }
-.card-body{
+/* .card-body{
     background-color: #212224;
     border-radius: 8px;
-}
+} */
 .navbar{
     height: auto;
     padding: 15px;
@@ -31,6 +31,7 @@ body {
     color: rgb(221, 221, 221);
     margin-top: 10px;
     margin-left: 5px;
+    font: optional;
 }
 .poster{
     margin-left: 5px;
